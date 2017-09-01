@@ -2,6 +2,7 @@
 Source code in src.
 pom.xml as configuration file in the maven project.
 input.txt as input file.
+View results in /output directory.
 
 Run RecommendSystem-0.0.6.jar on hadoop with this command:
     hadoop jar RecommendSystem-0.0.6.jar org/lingbo/hadoop/RecommendSystem /input /output1 /output2 /output3 /output4 /output5 /output6
