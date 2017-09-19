@@ -1,0 +1,10 @@
+format:
+user:movie score
+
+e.g.
+101:108	0.03
+101:112	0.08
+...
+meaning:
+After matrix multiplication and ruling out the movies that user 101 has already watched, we see that for user 101 movie 108 has score 0.03, and movie 112 0.08.
+We will have more for user 101. Here we just list two for convenience. (For the score, the greater, the better we want to recommend it to that user)
