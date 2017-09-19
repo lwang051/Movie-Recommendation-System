@@ -1,0 +1,8 @@
+format:
+user movie:score
+
+e.g.
+101	470:0.26
+meanding:
+For user 101, we recommend movie 470 because it outperforms others by having the highest score of 0.26.
+This is the final output of our project.
