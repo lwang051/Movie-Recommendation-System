@@ -18,4 +18,4 @@ Final recommendation result is in /output6.
 ### Task
 The task is then reduced to finding the movie with the highest score for each user.
 ### Scoring
-This schema shows the idea of getting each movie's score for a user.
+[**This schema**](../master/Diagrams/Scoring%20Schema.pdf) shows the idea of getting each movie's score for a user.
