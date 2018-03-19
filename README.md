@@ -13,3 +13,4 @@ This system takes a plain text file as its input. See the [**input file**](../ma
 This system emits a plain text file as its output. See the [**output file**](../master/Output/output6/part-r-00000) here. Each line contains a recommendation result for a user in the format of **"userID,  recommended_movieID:score"**. For example, "101	470:0.26" means that we recommend the movie with ID 470 to the user with ID 101 because this movie outperforms all the other movies with the highest score of 0.26.
 ### Task
 The task is then reduced to finding the movie with the highest score for each user.
+### Scoring schema
