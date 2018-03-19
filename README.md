@@ -1,4 +1,9 @@
 # Movie-Recommendation-System
+
+This project was done without using Github.
+###
+
+
 Source code in src.
 pom.xml as configuration file in the maven project.
 input.txt as input file.
