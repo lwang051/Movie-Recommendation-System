@@ -1,0 +1,7 @@
+format:
+movieID movieID:number
+
+e.g.
+101	220:2
+meaning:
+There are two users that watched both movie 101 and movie 220. "number" is the number of users that have watched both the aforementioned movies.
