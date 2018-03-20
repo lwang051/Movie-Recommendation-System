@@ -18,4 +18,5 @@ Final recommendation result is in /output6.
 ### Task
 The task is then reduced to finding the movie with the highest score for each user.
 ### Scoring
-1. [**This schema**](../master/Diagrams/Scoring%20Schema.pdf) shows the idea of getting each movie's score for a user.
+1. Item-item collaborative filtering is used. Matrix multiplication is performed after normalization.
+2. [**This schema**](../master/Diagrams/Scoring%20Schema.pdf) shows the idea of getting each movie's score for a user. The idea is that "You rated movie1 high, and there are many people watched both movie1 and movie2. If you haven't watched movie2, you should try it".
