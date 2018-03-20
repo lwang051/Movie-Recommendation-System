@@ -2,7 +2,7 @@
 
 This project was done without using Github.
 ### Command
-Upload **_RecommendSystem-0.0.6.jar_** and **_/input_** on Hadoop 2.7.3. Run it with this command:
+Upload **RecommendSystem-0.0.6.jar** and **/input** on Hadoop 2.7.3. Run it with this command:
 
     hadoop jar RecommendSystem-0.0.6.jar org/lingbo/hadoop/RecommendSystem /input /output1 /output2 /output3 /output4 /output5 /output6
 
