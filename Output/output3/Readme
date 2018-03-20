@@ -1,7 +1,0 @@
-format:
-movie denominator
-
-e.g.
-101	86
-meaning:
-In order to do nomalization, we add denominator to the cells in each row. "101 86" means that for movie 101 the denominator is 86 because there are 86 users that watched this movie in total.

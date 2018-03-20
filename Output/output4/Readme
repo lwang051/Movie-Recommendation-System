@@ -1,8 +1,0 @@
-format:
-movie movie:number
-
-e.g.
-101	751:1,694:1
-meaning:
-Again this format, "movie movie:number", indicates that this is a coocurrence matrix. This time, however, we rotated the matrix and made the movies in the columns be the keys. That's all because we need to do matrix multiplication in the next step. This is more like a preparation for it.
-So in the original coocurrence matrix, if we have "751 101:1" and "694 101:1", here we should have "101	751:1,694:1".
