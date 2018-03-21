@@ -14,11 +14,10 @@ Final recommendation result is in /output6. Others are intermediate outputs.
 The task is then reduced to finding the movie with the highest score for each user.
 ### Scoring
 1. See a simple way to explain the [**basic idea**](../master/docs/Basic%20Idea.pdf) for scoring.
-2. Take [**A quick look**](../master/docs/Scoring%20Schema.pdf) at how to get each movie's score for a user.
-3. See the [**main steps**](../master/docs/Main%20Steps.pdf) needed for the whole procedure. Below are explainations about the steps:
+2. See the [**main steps**](../master/docs/Main%20Steps.pdf) needed for the whole procedure. Below are explainations about the steps:
     1)  Find each user's watch-list according to input.txt. [**(See output)**](../master/output/output1/part-r-00000)
     2)  Build [**movie-movie**](../master/docs/Movie%20Movie%20Correlation%20Matrix.pdf) correlation matrix. [**(See output)**](../master/output/output2/part-r-00000)
     3)  Prepare for normalization. Find each movie the denominator. [**(See output)**](../master/output/output3/part-r-00000)
     4)  Prepare for matrix multiplication. Rotate movie-movie correlation matrix. [**(See output)**](../master/output/output4/part-r-00000)
-    5)  Rule out watched movies. Do matrix multiplication and [**normalization**](../master/docs/Normalization.pdf) at the same time. [**(See output)**](../master/output/output5/part-r-00000)
+    5)  Rule out watched movies. [**Calculate scores**](../master/docs/Scoring%20Schema.pdf) and [**normalization**](../master/docs/Normalization.pdf) at the same time. [**(See output)**](../master/output/output5/part-r-00000)
     6)  Find the movie of the highest score for each user. [**(See output)**](../master/output/output6/part-r-00000)
