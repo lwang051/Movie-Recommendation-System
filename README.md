@@ -16,4 +16,9 @@ The task is then reduced to finding the movie with the highest score for each us
 1. See a simple way to explain the [**basic idea**](../master/docs/Basic%20Idea.pdf) for scoring.
 2. Take [**A quick look**](../master/docs/Scoring%20Schema.pdf) at how to get each movie's score for a user.
 3. See the [**main steps**](../master/docs/Main%20Steps.pdf) needed for the whole procedure. Below are explainations about the steps:
-    1) 
+    1) Find each user's watch-list according to input.txt, and output it to /output1.
+    2) Build movie-movie correlation matrix, and output it to /output2.
+    3) Prepare for normalization. Find each movie the denominator.
+    4) Prepare for matrix multiplication. Rotate movie-movie correlation matrix.
+    5) Rule out movies that are already watched. Perform matrix multiplication and normalization at the same time.
+    6) Find the movie of the highest score for each user.
