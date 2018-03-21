@@ -15,5 +15,5 @@ The task is then reduced to finding the movie with the highest score for each us
 ### Scoring
 1. See a simple way to explain the [**basic idea**](../master/docs/Basic%20Idea.pdf) for scoring.
 2. [**A quick view**](../master/docs/Scoring%20Schema.pdf) of how to get each movie's score for a user.
-3. Here are the [**main steps**](../master/docs/Main%20Steps.pdf) needed for the whole procedure.
+3. See the [**main steps**](../master/docs/Main%20Steps.pdf) needed for the whole procedure. Below are explainations about the steps:
     1) 
