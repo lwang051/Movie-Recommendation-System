@@ -10,9 +10,7 @@ Final recommendation result is in /output6.
 ### Input
 This system takes a plain text file as its [**input file**](../master/input/input.txt). See the [**input format**](../master/docs/Input.pdf) here.
 ### Output
-1. This system emits a plain text file as its output. See the [**output file**](../master/output/output6/part-r-00000) here.
-2. Each line contains a recommendation for a user in the format of "_userID    recommended_movieID:score_".
-3. E.g. "101	470:0.26", we recommend the Movie470 to the User101 because this movie outperforms all the other movies with the highest score of 0.26.
+This system emits a plain text file as its [**output file**](../master/output/output6/part-r-00000). See the [**output format**](../master/docs/Output.pdf) the here.
 ### Task
 The task is then reduced to finding the movie with the highest score for each user.
 ### Scoring
