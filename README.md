@@ -7,9 +7,9 @@ Upload **RecommendSystem-0.0.6.jar** and **/input** on Hadoop 2.7.3. Run it with
     hadoop jar RecommendSystem-0.0.6.jar org/lingbo/hadoop/RecommendSystem /input /output1 /output2 /output3 /output4 /output5 /output6
 
 Final recommendation result is in /output6.
-### Input
+### Input & Output
 This system takes a plain text file as its [**input file**](../master/input/input.txt). See the [**input format**](../master/docs/Input.pdf) here.
-### Output
+
 This system emits a plain text file as its [**output file**](../master/output/output6/part-r-00000). See the [**output format**](../master/docs/Output.pdf) the here.
 ### Task
 The task is then reduced to finding the movie with the highest score for each user.
