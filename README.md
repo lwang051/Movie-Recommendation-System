@@ -20,5 +20,5 @@ The task is then reduced to finding the movie with the highest score for each us
     2)  Build movie-movie correlation matrix, and output it to /output2. [**(See its output)**](../master/output/output2/part-r-00000)
     3)  Prepare for normalization. Find each movie the denominator. [**(See its output)**](../master/output/output3/part-r-00000)
     4)  Prepare for matrix multiplication. Rotate movie-movie correlation matrix. [**(See its output)**](../master/output/output4/part-r-00000)
-    5)  Rule out movies that are already watched. Perform matrix multiplication and normalization at the same time. [**(See its output)**](../master/output/output5/part-r-00000)
+    5)  Rule out watched movies. Perform matrix multiplication and normalization at the same time. [**(See its output)**](../master/output/output5/part-r-00000)
     6)  Find the movie of the highest score for each user. [**(See its output)**](../master/output/output6/part-r-00000)
