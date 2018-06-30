@@ -1,6 +1,5 @@
 # Movie-Recommendation-System
 
-This project was done without using Github.
 ### Command
 Upload **RecommendSystem-0.0.6.jar** and **/input** on Hadoop 2.7.3. Run it with this command:
 
